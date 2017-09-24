@@ -1,4 +1,6 @@
-<html><head>
+<html>
+
+<head>
     <title>Shelterize</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,317 +14,330 @@
     <!--[if lte IE 8]>
       <link rel="stylesheet" href="assets/css/ie8.css" />
     <![endif]-->
-  </head><body>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+</head>
+
+<body>
     <!-- Wrapper -->
     <div id="wrapper">
-      <!-- Header -->
-      <header id="header">
-        <div class="inner">
-          <!-- Logo -->
-          <a href="index.html" class="logo">
+        <!-- Header -->
+        <header id="header">
+            <div class="inner">
+                <!-- Logo -->
+                <a href="index.html" class="logo">
 
 									<span class="symbol"><img src="images/logo.svg" alt=""></span><span class="title">Shelterize</span>
 
 								</a>
-          <!-- Nav -->
-          <nav>
+                <!-- Nav -->
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#menu">Menu</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- Menu -->
+        <nav id="menu">
+            <h2>Menu</h2>
             <ul>
-              <li>
-                <a href="#menu">Menu</a>
-              </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="generic.html">Ipsum veroeros</a>
+                </li>
+                <li>
+                    <a href="generic.html">Tempus etiam</a>
+                </li>
+                <li>
+                    <a href="generic.html">Consequat dolor</a>
+                </li>
+                <li>
+                    <a href="elements.html">Elements</a>
+                </li>
             </ul>
-          </nav>
-        </div>
-      </header>
-      <!-- Menu -->
-      <nav id="menu">
-        <h2>Menu</h2>
-        <ul>
-          <li>
-            <a href="index.html">Home</a>
-          </li>
-           <li>
-            <a href="helpme.html">Help Me</a>
-          </li>
-          <li>
-            <a href="offerhelp.html">I Want To Help</a>
-          </li>
-          <li>
-            <a href="safe.html">I Am Safe</a>
-          </li>
-          <li>
-            <a href="elements.html">Elements</a>
-          </li>
-        </ul>
-      </nav>
-      <!-- Main -->
-      <div id="main">
-        <div class="inner">
-          <header>
-            <h1>We can probably put the map here
+        </nav>
+        <!-- Main -->
+        <div id="main">
+            <div class="inner">
+                <header>
+                    <h1>We can probably put the map here
               <br>template designed by
               <a href="http://html5up.net">HTML5 UP</a>.</h1>
-            <p>Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit amet
-              nisi euismod sed cursus arcu elementum ipsum arcu vivamus quis venenatis
-              orci lorem ipsum et magna feugiat veroeros aliquam. Lorem ipsum dolor sit
-              amet nullam dolore.</p>
-          </header>
-          <section class="tiles">
-            <article class="style1">
-              <span class="image">
+                </header>
+
+                <!-- News Ticker -->
+                <section class="ticker">
+                    <h2>
+                <marquee behavior="scroll" direction="left"
+                    onmouseover="this.stop();"
+                    onmouseout="this.start();"
+                    vrspace="5%"
+                    hspace="5%">
+                    <span id="myText"></span>
+                </marquee>
+            </h2>
+                </section>
+
+                <section class="tiles">
+                    <article class="style1">
+                        <span class="image">
                 <img src="images/pic01.jpg" alt="">
               </span>
-              <a href="helpme.html">
+                        <a href="generic.html">
 
-										<h2>I Need Help</h2>
+                            <h2>I Need Help</h2>
 
-										<div class="content">
+                            <div class="content">
 
-											<p>I need help. Please send first responders or volunteers to my location</p>
+                                <p>I need help. Please send first responders or volunteers to my location</p>
 
-										</div>
+                            </div>
 
-									</a>
-            </article>
-            <article class="style2">
-              <span class="image">
+                        </a>
+                    </article>
+                    <article class="style2">
+                        <span class="image">
                 <img src="images/pic02.jpg" alt="">
               </span>
-              <a href="offerhelp.html">
+                        <a href="generic.html">
 
-										<h2>I Want to help</h2>
+                            <h2>I Want to help</h2>
 
-										<div class="content">
+                            <div class="content">
 
-											<p>I want to help out by sending supplies or offering shelter.</p>
+                                <p>I want to help out by sending supplies or offering shelter.</p>
 
-										</div>
+                            </div>
 
-									</a>
-            </article>
-            <article class="style3">
-              <span class="image">
+                        </a>
+                    </article>
+                    <article class="style3">
+                        <span class="image">
                 <img src="images/pic03.jpg" alt="">
               </span>
-              <a href="safe.html">
+                        <a href="generic.html">
 
-										<h2>I am SAFE</h2>
+                            <h2>I am SAFE</h2>
 
-										<div class="content">
+                            <div class="content">
 
-											<p>I am in a safe location</p>
+                                <p>I am in a safe location</p>
 
-										</div>
+                            </div>
 
-									</a>
-            </article>
-            <center>
-              <h1>Additional Information</h1>
-            </center>
-            <article class="style4">
-              <span class="image"></span>
-              <a href="generic.html">
+                        </a>
+                    </article>
+                    <center>
+                        <h1>Additional Information</h1>
+                    </center>
+                    <article class="style4">
+                        <span class="image"></span>
+                        <a href="generic.html">
 
-										<h2>Tempus</h2>
+                            <h2>Tempus</h2>
 
-										<div class="content">
+                            <div class="content">
 
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+                                <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
 
-										</div>
+                            </div>
 
-									</a>
-            </article>
-            <article class="style5">
-              <span class="image">
+                        </a>
+                    </article>
+                    <article class="style5">
+                        <span class="image">
                 <img src="images/pic05.jpg" alt="">
               </span>
-              <a href="generic.html">
+                        <a href="generic.html">
 
-										<h2>Aliquam</h2>
+                            <h2>Aliquam</h2>
 
-										<div class="content">
+                            <div class="content">
 
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+                                <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
 
-										</div>
+                            </div>
 
-									</a>
-            </article>
-            <article class="style6">
-              <span class="image">
+                        </a>
+                    </article>
+                    <article class="style6">
+                        <span class="image">
                 <img src="images/pic06.jpg" alt="">
               </span>
-              <a href="generic.html">
+                        <a href="generic.html">
 
-										<h2>Veroeros</h2>
+                            <h2>Veroeros</h2>
 
-										<div class="content">
+                            <div class="content">
 
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+                                <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
 
-										</div>
+                            </div>
 
-									</a>
-            </article>
-            <article class="style2">
-              <span class="image">
+                        </a>
+                    </article>
+                    <article class="style2">
+                        <span class="image">
                 <img src="images/pic07.jpg" alt="">
               </span>
-              <a href="generic.html">
+                        <a href="generic.html">
 
-										<h2>Ipsum</h2>
+                            <h2>Ipsum</h2>
 
-										<div class="content">
+                            <div class="content">
 
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+                                <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
 
-										</div>
+                            </div>
 
-									</a>
-            </article>
-            <article class="style3">
-              <span class="image">
+                        </a>
+                    </article>
+                    <article class="style3">
+                        <span class="image">
                 <img src="images/pic08.jpg" alt="">
               </span>
-              <a href="generic.html">
+                        <a href="generic.html">
 
-										<h2>Dolor</h2>
+                            <h2>Dolor</h2>
 
-										<div class="content">
+                            <div class="content">
 
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+                                <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
 
-										</div>
+                            </div>
 
-									</a>
-            </article>
-            <article class="style1">
-              <span class="image">
+                        </a>
+                    </article>
+                    <article class="style1">
+                        <span class="image">
                 <img src="images/pic09.jpg" alt="">
               </span>
-              <a href="generic.html">
+                        <a href="generic.html">
 
-										<h2>Nullam</h2>
+                            <h2>Nullam</h2>
 
-										<div class="content">
+                            <div class="content">
 
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+                                <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
 
-										</div>
+                            </div>
 
-									</a>
-            </article>
-            <article class="style5">
-              <span class="image">
+                        </a>
+                    </article>
+                    <article class="style5">
+                        <span class="image">
                 <img src="images/pic10.jpg" alt="">
               </span>
-              <a href="generic.html">
+                        <a href="generic.html">
 
-										<h2>Ultricies</h2>
+                            <h2>Ultricies</h2>
 
-										<div class="content">
+                            <div class="content">
 
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+                                <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
 
-										</div>
+                            </div>
 
-									</a>
-            </article>
-            <article class="style6">
-              <span class="image">
+                        </a>
+                    </article>
+                    <article class="style6">
+                        <span class="image">
                 <img src="images/pic11.jpg" alt="">
               </span>
-              <a href="generic.html">
+                        <a href="generic.html">
 
-										<h2>Dictum</h2>
+                            <h2>Dictum</h2>
 
-										<div class="content">
+                            <div class="content">
 
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+                                <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
 
-										</div>
+                            </div>
 
-									</a>
-            </article>
-            <article class="style4">
-              <span class="image">
+                        </a>
+                    </article>
+                    <article class="style4">
+                        <span class="image">
                 <img src="images/pic12.jpg" alt="">
               </span>
-              <a href="generic.html">
+                        <a href="generic.html">
 
-										<h2>Pretium</h2>
+                            <h2>Pretium</h2>
 
-										<div class="content">
+                            <div class="content">
 
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+                                <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
 
-										</div>
+                            </div>
 
-									</a>
-            </article>
-          </section>
+                        </a>
+                    </article>
+                </section>
+            </div>
         </div>
-      </div>
-      <!-- Footer -->
-      <footer id="footer">
-        <div class="inner">
-          <section>
-            <h2>Get in touch</h2>
-            <form method="post" action="#">
-              <div class="field half first">
-                <input type="text" name="name" id="name" placeholder="Name">
-              </div>
-              <div class="field half">
-                <input type="email" name="email" id="email" placeholder="Email">
-              </div>
-              <div class="field">
-                <textarea name="message" id="message" placeholder="Message"></textarea>
-              </div>
-              <ul class="actions">
-                <li>
-                  <input type="submit" value="Send" class="special">
-                </li>
-              </ul>
-            </form>
-          </section>
-          <section>
-            <h2>Follow</h2>
-            <ul class="icons">
-              <li>
-                <a href="#" class="icon style2 fa-twitter"><span class="label">Twitter</span></a>
-              </li>
-              <li>
-                <a href="#" class="icon style2 fa-facebook"><span class="label">Facebook</span></a>
-              </li>
-              <li>
-                <a href="#" class="icon style2 fa-instagram"><span class="label">Instagram</span></a>
-              </li>
-              <li>
-                <a href="#" class="icon style2 fa-dribbble"><span class="label">Dribbble</span></a>
-              </li>
-              <li>
-                <a href="#" class="icon style2 fa-github"><span class="label">GitHub</span></a>
-              </li>
-              <li>
-                <a href="#" class="icon style2 fa-500px"><span class="label">500px</span></a>
-              </li>
-              <li>
-                <a href="#" class="icon style2 fa-phone"><span class="label">Phone</span></a>
-              </li>
-              <li>
-                <a href="#" class="icon style2 fa-envelope-o"><span class="label">Email</span></a>
-              </li>
-            </ul>
-          </section>
-          <ul class="copyright">
-            <li>© Untitled. All rights reserved</li>
-            <li>Design:
-              <a href="http://html5up.net">HTML5 UP</a>
-            </li>
-          </ul>
-        </div>
-      </footer>
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="inner">
+                <section>
+                    <h2>Get in touch</h2>
+                    <form method="post" action="#">
+                        <div class="field half first">
+                            <input type="text" name="name" id="name" placeholder="Name">
+                        </div>
+                        <div class="field half">
+                            <input type="email" name="email" id="email" placeholder="Email">
+                        </div>
+                        <div class="field">
+                            <textarea name="message" id="message" placeholder="Message"></textarea>
+                        </div>
+                        <ul class="actions">
+                            <li>
+                                <input type="submit" value="Send" class="special">
+                            </li>
+                        </ul>
+                    </form>
+                </section>
+                <section>
+                    <h2>Follow</h2>
+                    <ul class="icons">
+                        <li>
+                            <a href="#" class="icon style2 fa-twitter"><span class="label">Twitter</span></a>
+                        </li>
+                        <li>
+                            <a href="#" class="icon style2 fa-facebook"><span class="label">Facebook</span></a>
+                        </li>
+                        <li>
+                            <a href="#" class="icon style2 fa-instagram"><span class="label">Instagram</span></a>
+                        </li>
+                        <li>
+                            <a href="#" class="icon style2 fa-dribbble"><span class="label">Dribbble</span></a>
+                        </li>
+                        <li>
+                            <a href="#" class="icon style2 fa-github"><span class="label">GitHub</span></a>
+                        </li>
+                        <li>
+                            <a href="#" class="icon style2 fa-500px"><span class="label">500px</span></a>
+                        </li>
+                        <li>
+                            <a href="#" class="icon style2 fa-phone"><span class="label">Phone</span></a>
+                        </li>
+                        <li>
+                            <a href="#" class="icon style2 fa-envelope-o"><span class="label">Email</span></a>
+                        </li>
+                    </ul>
+                </section>
+                <ul class="copyright">
+                    <li>© Untitled. All rights reserved</li>
+                    <li>Design:
+                        <a href="http://html5up.net">HTML5 UP</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
     </div>
     <!-- Scripts -->
     <script src="assets/js/jquery.min.js"></script>
@@ -332,6 +347,47 @@
       <script src="assets/js/ie/respond.min.js"></script>
     <![endif]-->
     <script src="assets/js/main.js"></script>
-  
 
-</body></html>
+    <script type="text/javascript">
+        // var payload;
+
+        $(function() {
+            var params = {
+                // Request parameters
+                "q": "earthquake",
+                "count": "10",
+                "offset": "0",
+                "mkt": "en-us",
+                "safeSearch": "Moderate",
+            };
+
+            $.ajax({
+                    url: "https://api.cognitive.microsoft.com/bing/v5.0/news/search?" + $.param(params),
+                    beforeSend: function(xhrObj) {
+                        // Request headers
+                        xhrObj.setRequestHeader("Ocp-Apim-Subscription-Key", "0c180234f76e45e3b1f44f5ae769e2c8");
+                    },
+                    type: "GET",
+                    // Request body
+                    data: "{body}",
+                })
+                .done(function(data) {
+                    //alert("success");
+                    //console.log(data);
+                    var text_news = "";
+                    for (var i = 0; i < 10; i++) {
+                        text_news += data.value[i].name + "&nbsp;&nbsp; | &nbsp;&nbsp;";
+                        //document.write(text_news); //document.write("<br>");
+                    }
+                    //console.log(text_news);
+                    document.getElementById("myText").innerHTML = text_news;
+                })
+                .fail(function() {
+                    alert("error");
+                });
+        });
+    </script>
+
+</body>
+
+</html>
